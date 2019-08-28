@@ -1,0 +1,33 @@
+{
+  "pipeline": {
+    "name": "gcsi2017RawSensitivity"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v3",
+    "cmd": [
+      "Rscript", 
+      "/pfs/downloadgCSI2017SensRaw/downloadSensData.R"]
+    },
+  
+  "resource_requests": {
+    "memory": "100M"
+  },
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/downloadgCSI2017SensRaw.git",
+          "name": "",
+          "branch": "master"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "gcsi2017raw",
+          "glob": "/"
+        }
+      }
+    ]
+  }
+}
