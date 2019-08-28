@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "downloadrna"
+    "name": "downloadrnagCSI"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
