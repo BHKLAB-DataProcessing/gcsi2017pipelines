@@ -41,7 +41,7 @@
       
       {
         "pfs": {
-          "repo": "gcsi2017raw",
+          "repo": "gcsi2017RawSensitivity",
           "glob": "/"
         }
       }
