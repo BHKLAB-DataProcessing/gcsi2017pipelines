@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "calculategcsi2017RAW"
+    "name": "calculategcsi2018RAW"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
@@ -26,7 +26,7 @@
       },
       {
         "pfs": {
-          "repo": "gcsi2017RawSensitivity",
+          "repo": "gcsi2018SensData",
           "name": "input",
           "glob": "/slices/*"
         }

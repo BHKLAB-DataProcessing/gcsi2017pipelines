@@ -1,15 +1,15 @@
 {
   "pipeline": {
-    "name": "calculategcsi2017RAW"
+    "name": "gcsi2018ProfilesAssemble"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
     "cmd": [
       "Rscript", 
-      "/pfs/gdscRecalculateFromRaw/recalculateSlice.R"]
+      "/pfs/gdscAssembleRecalc/assembleData.R"]
     },
   "parallelism_spec":{
-    "coefficient": 1
+    "constant": 1
   },
   "resource_requests": {
     "memory": "10M",
@@ -19,16 +19,16 @@
     "cross": [
       {
         "git": {
-          "url": "https://github.com/BHKLAB-Pachyderm/gdscRecalculateFromRaw.git",
+          "url": "https://github.com/BHKLAB-Pachyderm/gdscAssembleRecalc.git",
           "name": "",
           "branch": "master"
         }
       },
       {
         "pfs": {
-          "repo": "gcsi2017RawSensitivity",
+          "repo": "calculategCSI2018RAW",
           "name": "input",
-          "glob": "/slices/*"
+          "glob": "/"
         }
       } 
     ]

@@ -1,0 +1,57 @@
+{
+  "pipeline": {
+    "name": "get_gCSI2018"
+  },
+  "transform": {
+    "image": "bhklab/pharmacogx:v3",
+    "cmd": [
+      "Rscript", 
+      "/pfs/getgCSI2018/getgCSI2018.R"]
+    },
+  
+  "input": {
+    "cross": [
+      {
+        "git": {
+          "url": "https://github.com/BHKLAB-Pachyderm/getgCSI2018.git",
+          "name": "",
+          "branch": "master"
+        }
+      },
+      {
+        "pfs": {
+          "repo": "downloadrnagCSI",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "downAnnotations",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "gcsi2017RawSensitivity",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "gcsi2018SensData",
+          "glob": "/"
+        }
+      },
+      
+      {
+        "pfs": {
+          "repo": "gcsi2018ProfilesAssemble",
+          "glob": "/"
+        }
+      }
+    ]
+  }
+}
