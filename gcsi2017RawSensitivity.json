@@ -20,13 +20,6 @@
           "name": "",
           "branch": "master"
         }
-      },
-      
-      {
-        "pfs": {
-          "repo": "gcsi2017raw",
-          "glob": "/"
-        }
       }
     ]
   }
