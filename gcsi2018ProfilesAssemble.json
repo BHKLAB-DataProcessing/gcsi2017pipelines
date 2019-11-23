@@ -26,7 +26,7 @@
       },
       {
         "pfs": {
-          "repo": "calculategCSI2018RAW",
+          "repo": "calculategcsi2018RAW",
           "name": "input",
           "glob": "/"
         }
