@@ -20,6 +20,12 @@
           "name": "",
           "branch": "master"
         }
+      },
+      {
+        "pfs": {
+          "repo": "downAnnotations",
+          "glob": "/"
+        }
       }
     ]
   }
