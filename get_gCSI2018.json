@@ -6,7 +6,7 @@
     "image": "bhklab/pharmacogx:v3",
     "cmd": [
       "Rscript", 
-      "/pfs/getgCSI2018/getgCSI2018.R"]
+      "/pfs/getgCSI2018/getgCSI2018.R","Kallisto-0.46.1", "Gencode_v33" ,"asdssha742832sb"]
     },
   
   "input": {
@@ -20,7 +20,7 @@
       },
       {
         "pfs": {
-          "repo": "downloadrnagCSI",
+          "repo": "gcsi_rnaseq_kallisto_0_43_0",
           "glob": "/"
         }
       },
