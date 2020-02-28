@@ -3,7 +3,7 @@
     "name": "get_gCSI2017"
   },
   "transform": {
-    "image": "bhklab/pharmacogx:v3",
+    "image": "bhklab/pharmacogx:v7",
     "cmd": [
       "Rscript", 
       "/pfs/getgCSI2017/getgCSI2017.R"]
@@ -34,7 +34,7 @@
       
       {
         "pfs": {
-          "repo": "gcsi2017ProfilesAssemble",
+          "repo": "gcsi2017ProfileAssemble",
           "glob": "/"
         }
       },
