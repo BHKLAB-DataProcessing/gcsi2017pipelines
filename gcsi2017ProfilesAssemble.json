@@ -9,7 +9,7 @@
       "/pfs/gdscAssembleRecalc/assembleData.R"]
     },
   "resource_requests": {
-    "memory": "100M",
+    "memory": "100M"
   },
   "input": {
     "cross": [
