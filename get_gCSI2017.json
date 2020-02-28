@@ -20,7 +20,7 @@
       },
       {
         "pfs": {
-          "repo": "downloadrnagCSI",
+          "repo": "gcsi_rnaseq_kallisto_0_43_0",
           "glob": "/"
         }
       },
