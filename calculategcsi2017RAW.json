@@ -9,11 +9,10 @@
       "/pfs/gdscRecalculateFromRaw/recalculateSlice.R"]
     },
   "parallelism_spec":{
-    "coefficient": 1
+    "constant": 3
   },
   "resource_requests": {
-    "memory": "10M",
-    "cpu": 0.1
+    "memory": "1G"
   },
   "input": {
     "cross": [
