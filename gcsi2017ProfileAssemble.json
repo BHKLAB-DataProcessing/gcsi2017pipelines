@@ -1,6 +1,6 @@
 {
   "pipeline": {
-    "name": "gcsi2017ProfilesAssemble"
+    "name": "gcsi2017ProfileAssemble"
   },
   "transform": {
     "image": "bhklab/pharmacogx:v3",
