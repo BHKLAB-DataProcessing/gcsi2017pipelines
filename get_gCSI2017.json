@@ -6,7 +6,7 @@
     "image": "bhklab/pharmacogx:v7",
     "cmd": [
       "Rscript", 
-      "/pfs/getgCSI2017/getgCSI2017.R"]
+      "/pfs/getgCSI2017/getgCSI2017.R", "Kallisto-0.43.0", "Gencode_v33", "asdssha742832sb"]
     },
   
   "input": {
