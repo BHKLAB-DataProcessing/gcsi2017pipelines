@@ -3,7 +3,7 @@
     "name": "get_gCSI2017"
   },
   "transform": {
-    "image": "bhklab/pharmacogx:v7",
+    "image": "bhklab/pharmacogx:v8",
     "cmd": [
       "Rscript", 
       "/pfs/getgCSI2017/getgCSI2017.R", "Kallisto-0.43.0", "Gencode_v33", "asdssha742832sb"]
