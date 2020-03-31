@@ -3,7 +3,7 @@
     "name": "gcsi2017RawSensitivity"
   },
   "transform": {
-    "image": "bhklab/pharmacogx:v3",
+    "image": "bhklab/pharmacogx:v8",
     "cmd": [
       "Rscript", 
       "/pfs/downloadgCSI2017SensRaw/downloadSensData.R"]
