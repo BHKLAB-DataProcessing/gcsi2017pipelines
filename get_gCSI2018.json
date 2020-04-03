@@ -51,13 +51,6 @@
           "repo": "gcsi2018ProfilesAssemble",
           "glob": "/"
         }
-      },
-      
-      {
-        "pfs": {
-          "repo": "downloadrnagCSI",
-          "glob": "/"
-        }
       }
     ]
   }
