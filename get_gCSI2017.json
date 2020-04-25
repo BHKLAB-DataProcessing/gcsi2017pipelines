@@ -9,6 +9,10 @@
       "/pfs/getgCSI2017/getgCSI2017.R", "Kallisto-0.46.1", "Gencode_v33", "asdssha742832sb"]
     },
   
+  "resource_requests": {
+    "memory": "5G"
+  },
+  
   "input": {
     "cross": [
       {
